@@ -1,7 +1,8 @@
 <script setup></script>
+
 <template>
   <div>
-    <p class="btn btn-primary">Personaje</p>
+    <h1>Mapa del Juego</h1>
   </div>
 </template>
 

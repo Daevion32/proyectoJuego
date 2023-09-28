@@ -1,7 +1,8 @@
 <script setup></script>
+
 <template>
   <div>
-    <p class="btn btn-primary">Personaje</p>
+    <p class="btn btn-primary">Mapa</p>
   </div>
 </template>
 

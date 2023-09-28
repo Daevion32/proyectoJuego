@@ -1,3 +1,15 @@
+@import './reset.css';
 
-
-
+.btn {
+  width: 17vw;
+  height: 8vh;
+  background-color: rgba(5, 9, 5, 0.885);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: white;
+}
