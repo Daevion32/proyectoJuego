@@ -1,25 +1,29 @@
 <script setup>
-import CharacterBtn from '../components/CharacterBtn.vue'
-import WorldMapBtn from '../components/WorldMapBtn.vue'
+import CharacterBtn from './buttons/CharacterBtn.vue';
+import WorldMapBtn from './buttons/WorldMapBtn.vue';
+import AcademyBtn from './Buttons/AcademyBtn.vue';
+import SocialBtn from './buttons/SocialBtn.vue';
+import AccountBtn from './buttons/AccountBtn.vue';
 </script>
 
 <template>
   <div class="aside">
     <div class="buttonPlay">
-      <Router-link to="/character"><CharacterBtn /></Router-link>
-      <Router-link to="/worldMap"><WorldMapBtn /></Router-link>
+      <RouterLink to="/character"><CharacterBtn /></RouterLink>
+      <RouterLink to="/worldMap"><WorldMapBtn /></RouterLink>
+      <RouterLink to="/academy"><AcademyBtn /></RouterLink>
+      <RouterLink to="/social"><SocialBtn /></RouterLink>
+      <RouterLink to="/account"><AccountBtn /></RouterLink>
     </div>
   </div>
 </template>
 
 <style scoped>
 .aside {
-  width: 20vw;
-  height: 30vh;
-  background-color: rgba(208, 25, 86, 0.675);
+  width: 22vw;
+  height: 78vh;
+  background-color: rgba(81, 94, 66, 0.564);
   position: relative;
-  top: 10vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;

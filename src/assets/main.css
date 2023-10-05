@@ -1,13 +1,18 @@
 @import './reset.css';
 
 .btn {
-  width: 17vw;
-  height: 8vh;
+  width: 15vw;
+  height: 15vh;
   background-color: rgba(5, 9, 5, 0.885);
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.btn:hover{
+  font-weight: 900;
+  font-size: x-large;
+  color:yellow;
 }
 a:-webkit-any-link {
   text-decoration: none;

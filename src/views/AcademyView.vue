@@ -1,13 +1,13 @@
 <script setup>
+import AcademyHome from '../components/AcademyHome.vue'
 import AsideBar from '../components/AsideBar.vue'
-import WorldMap from '../components/WorldMap.vue'
 </script>
 
 <template>
-  <div class="aside">
+  <div>
     <AsideBar />
-    <WorldMap />
+    <AcademyHome />
   </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped></style>

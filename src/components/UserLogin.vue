@@ -14,7 +14,7 @@
       <input type="»password»" id="»password»" />
     </div>
 
-    <button type="»submit»"><RouterLink to="/character">Login</RouterLink></button>
+    <button type="»submit»"><RouterLink to="/home">Login</RouterLink></button>
   </form>
 </template>
 

@@ -1,11 +1,12 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import IconRol from './icons/IconRol.vue'
 </script>
 
 <template>
   <div class="nav">
     <div class="icons">
-      <RouterLink to="/">Icono Juego</RouterLink>
+      <RouterLink to="/"><IconRol /></RouterLink>
     </div>
     <h1>Titulo Juego</h1>
 
