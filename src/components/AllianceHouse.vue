@@ -1,7 +1,15 @@
 <script setup></script>
 
 <template>
-  <div></div>
+  <div >
+    <h1 class="alliance">si acaba existiendo alianza vendra aqui</h1>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+  .alliance{
+    position: relative;
+    text-align: center;
+    bottom: 45vh;
+  }
+</style>

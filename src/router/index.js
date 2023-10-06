@@ -47,8 +47,8 @@ const router = createRouter({
       component: SocialView
     },
     {
-      path:'/account',
-      name :'account',
+      path: '/account',
+      name: 'account',
       component: AccountView
     }
   ]

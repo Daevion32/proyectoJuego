@@ -1,15 +1,34 @@
-<script setup></script>
+<script setup>
+import AttributeChar from './AttributeChar.vue';
+</script>
 
 <template>
-  <div>
-    <h1 class="character">Personaje en construccion</h1>
+  <div class="character">
+    <img class="retrato" src="" alt="Imagen Personaje">
+    <AttributeChar />
   </div>
 </template>
 
 <style scoped>
 .character {
+  display:flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  bottom:20vh;
+  right:20vw;
+  gap: 15vw;
+
+  
+}
+.retrato{
   position: relative;
   text-align: center;
-  bottom: 45vh;
+  width:20vw ;
+  height: 20vw;
+  background-color: red;
+  bottom: 50vh;
+  left: 45vw;
 }
 </style>

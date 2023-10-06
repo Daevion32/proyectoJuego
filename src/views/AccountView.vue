@@ -1,18 +1,13 @@
 <script setup>
-import AsideBar from '../components/AsideBar.vue';
-
-
+import AccountPage from '../components/AccountPage.vue';
+import AsideBar from '../components/AsideBar.vue'
 </script>
 
-
-
 <template>
-    <div>
-        <AsideBar />
-    </div>
+  <div>
+    <AsideBar />
+    <AccountPage />
+  </div>
 </template>
 
-
-<style  scoped>
-
-</style>
+<style scoped></style>

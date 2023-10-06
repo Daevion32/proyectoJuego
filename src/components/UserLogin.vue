@@ -1,21 +1,23 @@
-<script setup></script>
+<script setup>
+
+</script>
 
 <template>
-  <form>
-    <div class="user">
-      <label for="»user»"> Usuario: </label>
+    <form>
+      <div class="user">
+        <label for="»user»"> Usuario: </label>
 
-      <input type="»text»" id="»user»" />
-    </div>
+        <input type="»text»" id="»user»" />
+      </div>
 
-    <div class="password">
-      <label for="»password»"> Contraseña: </label>
+      <div class="password">
+        <label for="»password»"> Contraseña: </label>
 
-      <input type="»password»" id="»password»" />
-    </div>
+        <input type="»password»" id="»password»" />
+      </div>
 
-    <button type="»submit»"><RouterLink to="/home">Login</RouterLink></button>
-  </form>
+      <button type="»submit»"><RouterLink to="/home">Login</RouterLink></button>
+    </form>
 </template>
 
 <style scoped>

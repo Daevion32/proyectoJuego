@@ -9,10 +9,10 @@
   align-items: center;
   justify-content: center;
 }
-.btn:hover{
+.btn:hover {
   font-weight: 900;
   font-size: x-large;
-  color:yellow;
+  color: yellow;
 }
 a:-webkit-any-link {
   text-decoration: none;

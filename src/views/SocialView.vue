@@ -1,6 +1,6 @@
 <script setup>
 import AllianceHouse from '../components/AllianceHouse.vue'
-import AsideBar from '../components/AsideBar.vue';
+import AsideBar from '../components/AsideBar.vue'
 import GuildHouse from '../components/GuildHouse.vue'
 </script>
 <template>
@@ -12,6 +12,5 @@ import GuildHouse from '../components/GuildHouse.vue'
 </template>
 
 <style scoped>
-
 
 </style>
