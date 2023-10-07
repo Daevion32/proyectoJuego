@@ -1,18 +1,15 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-  <div >
+  <div>
     <h1 class="guildHouse">si existe guild estara aqui</h1>
-</div>
+  </div>
 </template>
 
-<style  scoped>
-  .guildHouse {
-    position: relative;
+<style scoped>
+.guildHouse {
+  position: relative;
   text-align: center;
   bottom: 45vh;
-
-  }
+}
 </style>
