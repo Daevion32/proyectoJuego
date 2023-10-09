@@ -5,11 +5,15 @@ import CharacterHome from '../components/CharacterHome.vue'
 </script>
 
 <template>
-  <div class="aside">
+  <div class="characterView" >
     <AsideBar />
     <CharacterHome />
     <InventaryCharacter />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+  .characterView{
+    height: 77.6vh;
+  }
+</style>

@@ -7,14 +7,14 @@ import AccountBtn from './buttons/AccountBtn.vue'
 </script>
 
 <template>
-  <div class="aside">
-    <div class="buttonPlay">
+  <div class="aside buttonPlay">
+
       <RouterLink to="/character"><CharacterBtn /></RouterLink>
       <RouterLink to="/worldMap"><WorldMapBtn /></RouterLink>
       <RouterLink to="/academy"><AcademyBtn /></RouterLink>
       <RouterLink to="/social"><SocialBtn /></RouterLink>
       <RouterLink to="/account"><AccountBtn /></RouterLink>
-    </div>
+
   </div>
 </template>
 
@@ -27,9 +27,12 @@ import AccountBtn from './buttons/AccountBtn.vue'
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap:1vh;
+  
 }
 .buttonPlay {
-  top: 2vh;
+
   position: relative;
 }
 </style>

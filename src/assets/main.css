@@ -2,12 +2,13 @@
 
 .btn {
   width: 15vw;
-  height: 15vh;
+  height: 7vw;
   background-color: rgba(5, 9, 5, 0.885);
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 .btn:hover {
   font-weight: 900;

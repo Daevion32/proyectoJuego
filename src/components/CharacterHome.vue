@@ -1,10 +1,11 @@
 <script setup>
 import AttributeChar from './AttributeChar.vue'
+import CharacterImage from './icons/CharacterImage.vue';
 </script>
 
 <template>
   <div class="character">
-    <img class="retrato" src="" alt="Imagen Personaje" />
+    <CharacterImage />
     <AttributeChar />
   </div>
 </template>
@@ -14,8 +15,8 @@ import AttributeChar from './AttributeChar.vue'
   display: flex;
   align-items: center;
   position: relative;
-  width: 100%;
-  height: 20vh;
+  width: 50vw ;
+  height: auto;
   right: 20vw;
   gap: 15vw;
 }

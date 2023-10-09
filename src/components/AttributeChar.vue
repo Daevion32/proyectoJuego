@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>
+  
     <ol class="attributes">
       <li>Fuerza : {character.strength}</li>
       <li>Destreza : {character.dexterity}</li>
@@ -10,7 +10,7 @@
       <li>Sabiduria : {character.wisdom}</li>
       <li>Carisma : {character.charisma}</li>
     </ol>
-  </div>
+
 </template>
 
 <style scoped>
