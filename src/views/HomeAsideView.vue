@@ -8,4 +8,6 @@ import HomeAside from '../components/HomeAside.vue'
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>

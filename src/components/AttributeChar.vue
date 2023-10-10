@@ -22,8 +22,7 @@
   background-color: black;
   color: white;
   position: relative;
-  left: 40vw;
-  bottom: 55vh;
+
   width: 35vw;
   height: 30vh;
 }

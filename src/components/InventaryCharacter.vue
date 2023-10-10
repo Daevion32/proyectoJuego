@@ -9,6 +9,6 @@
 .inventary {
   position: relative;
   text-align: center;
-  bottom: 45vh;
+  top:20vh;
 }
 </style>

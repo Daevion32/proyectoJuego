@@ -8,4 +8,4 @@ import AsideBar from './AsideBar.vue'
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style scoped></style>

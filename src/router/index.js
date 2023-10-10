@@ -32,7 +32,7 @@ const router = createRouter({
       component: CharacterView
     },
     {
-      path: '/worldMap',
+      path: '/WorldMap',
       name: 'worldMap',
       component: WorldMapView
     },

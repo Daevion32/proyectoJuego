@@ -10,7 +10,7 @@ import AccountBtn from './buttons/AccountBtn.vue'
   <div class="aside buttonPlay">
 
       <RouterLink to="/character"><CharacterBtn /></RouterLink>
-      <RouterLink to="/worldMap"><WorldMapBtn /></RouterLink>
+      <RouterLink to="/WorldMap"><WorldMapBtn /></RouterLink>
       <RouterLink to="/academy"><AcademyBtn /></RouterLink>
       <RouterLink to="/social"><SocialBtn /></RouterLink>
       <RouterLink to="/account"><AccountBtn /></RouterLink>
@@ -21,7 +21,7 @@ import AccountBtn from './buttons/AccountBtn.vue'
 <style scoped>
 .aside {
   width: 22vw;
-  height: 78vh;
+  height: 82vh;
   background-color: rgba(81, 94, 66, 0.564);
   position: relative;
   display: flex;
@@ -29,10 +29,13 @@ import AccountBtn from './buttons/AccountBtn.vue'
   align-items: center;
   justify-content: center;
   gap:1vh;
+  top:10vh;
   
 }
 .buttonPlay {
-
   position: relative;
 }
 </style>
+
+
+

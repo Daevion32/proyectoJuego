@@ -5,8 +5,11 @@ import CharacterHome from '../components/CharacterHome.vue'
 </script>
 
 <template>
-  <div class="characterView" >
+  <div>
     <AsideBar />
+    
+  </div>
+  <div class="characterView">
     <CharacterHome />
     <InventaryCharacter />
   </div>
@@ -14,6 +17,14 @@ import CharacterHome from '../components/CharacterHome.vue'
 
 <style scoped>
   .characterView{
-    height: 77.6vh;
+    position: relative;
+    bottom:30vh;
+    width: 100vh;
+    left: 62vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
   }
 </style>

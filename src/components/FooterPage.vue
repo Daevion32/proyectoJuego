@@ -11,8 +11,7 @@
 
 <style scoped>
 .footer {
-  position: relative;
-  top: 88vh;
+  position: fixed;
   bottom: 0;
   width: 100vw;
   display: flex;
@@ -21,6 +20,6 @@
   background-color: red;
   font-size: medium;
   font-weight: bolder;
-  height: 10vh;
+  height: 8vh;
 }
 </style>

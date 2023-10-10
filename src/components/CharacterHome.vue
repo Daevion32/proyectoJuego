@@ -11,22 +11,17 @@ import CharacterImage from './icons/CharacterImage.vue';
 </template>
 
 <style scoped>
-.character {
-  display: flex;
-  align-items: center;
-  position: relative;
-  width: 50vw ;
-  height: auto;
-  right: 20vw;
-  gap: 15vw;
+.character{
+  position: absolute;
+    display: flex;
+    width: 50vw;
+    right: 50vw;
+    gap: 15vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
-.retrato {
-  position: relative;
-  text-align: center;
-  width: 20vw;
-  height: 30vh;
-  background-color: red;
-  bottom: 55vh;
-  left: 45vw;
-}
+
+
 </style>

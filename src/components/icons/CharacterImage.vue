@@ -12,11 +12,10 @@
 
 .retrato {
   position: relative;
-  text-align: center;
-  width: 20vw;
-  height: 30vh;
-  background-color: red;
-  bottom: 55vh;
-  left: 45vw;
+    text-align: center;
+    width: 20vw;
+    height: 30vh;
+    background-color: red;
+
 }
 </style>
