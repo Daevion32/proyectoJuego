@@ -20,7 +20,7 @@ import CharacterHome from '../components/CharacterHome.vue'
     position: relative;
     bottom:30vh;
     width: 100vh;
-    left: 62vh;
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
