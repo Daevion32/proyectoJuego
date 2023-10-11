@@ -3,7 +3,8 @@
 </script>
 
 <template>
-    <img  class="retrato" src="" alt=" Imagen del Personaje" >
+    <img  class="retrato" src="../../assets/be5b0e9256e15105ffa89da11df4ba27.jpg" alt=" Imagen del Personaje" >
+
 </template>
 
 
@@ -12,10 +13,11 @@
 
 .retrato {
   position: relative;
-    text-align: center;
-    width: 20vw;
-    height: 30vh;
-    background-color: red;
-
+  top:2vw;
+  text-align: center;
+  width: 30vw;
+  height: 20vw;
+  background-color: red;
+  border: black solid 0.5vw;
 }
 </style>

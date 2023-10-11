@@ -16,15 +16,15 @@
 <style scoped>
 .attributes {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2vh;
-  background-color: black;
-  color: white;
-  position: relative;
-
-  width: 35vw;
-  height: 30vh;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 2vw;
+    width: 35vw;
+    height: 20vw;
+    justify-content: space-around;
 }
 li {
   margin-top: 1vh;

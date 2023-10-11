@@ -1,5 +1,5 @@
-https://app.creately.com/d/wAScaIxiRLZ/edit   //diagrama de la base de datos
-https://mystery.knightlab.com/ // juego sobre bases de datos
+https://app.creately.com/d/wAScaIxiRLZ/edit   //diagrama de la database
+https://mystery.knightlab.com/ // juego sobre bases de database
 
 
 Necesito un CRUD para la creacion , edicion , lectura y borrado de cuenta ( esto ultimo con una confirmación)
@@ -12,6 +12,50 @@ Necesito que los NPC interactuen con los personajes , dandoles misiones , recomp
 
 https://javierarcheni.com/blog/importa-las-tablas-de-tu-base-de-datos-a-un-nuevo-proyecto-laravel/#
 
+https://www.youtube.com/watch?v=DtN98YOdnzQ
+
+
+https://www.youtube.com/watch?v=GrUrw245L48
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://cyberfile.me/9aZ7
