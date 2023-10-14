@@ -5,9 +5,9 @@
     <ol class="attributes">
       <li>Fuerza : {character.strength}</li>
       <li>Destreza : {character.dexterity}</li>
-      <li>Constitucion : {character.constitution}</li>
-      <li>Inteligencia : {character.inteligence}</li>
-      <li>Sabiduria : {character.wisdom}</li>
+      <li>Constitución : {character.constitution}</li>
+      <li>Inteligencia : {character.intelligence}</li>
+      <li>Sabiduría : {character.wisdom}</li>
       <li>Carisma : {character.charisma}</li>
     </ol>
 
@@ -22,9 +22,11 @@
     color: white;
     position: relative;
     top: 2vw;
-    width: 35vw;
-    height: 20vw;
+    left: -19vw;
+    width: 18vw;
+    height: 23vw;
     justify-content: space-around;
+    border: black solid 0.5vw;
 }
 li {
   margin-top: 1vh;

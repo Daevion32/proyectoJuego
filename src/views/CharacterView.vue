@@ -1,6 +1,6 @@
 <script setup>
 import AsideBar from '../components/AsideBar.vue'
-import InventaryCharacter from '../components/InventaryCharacter.vue'
+import InventoryCharacter from '../components/InventoryCharacter.vue'
 import CharacterHome from '../components/CharacterHome.vue'
 </script>
 
@@ -11,20 +11,21 @@ import CharacterHome from '../components/CharacterHome.vue'
   </div>
   <div class="characterView">
     <CharacterHome />
-    <InventaryCharacter />
+    <InventoryCharacter />
   </div>
 </template>
 
 <style scoped>
   .characterView{
-    position: relative;
-    bottom:30vh;
-    width: 100vh;
-   
+    position: absolute;
+    bottom: 4vw;
+    left: 22vw;
+    height: 41.14vw;
+    width: 78vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
     align-items: flex-end;
+    background: #cd9c66;
   }
 </style>

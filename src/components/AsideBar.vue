@@ -23,7 +23,6 @@ import AccountBtn from './buttons/AccountBtn.vue'
   width: 22vw;
   height: 82vh;
   background-color: rgba(81, 94, 66, 0.564);
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;

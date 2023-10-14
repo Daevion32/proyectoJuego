@@ -13,11 +13,12 @@
 
 .retrato {
   position: relative;
-  top:2vw;
-  text-align: center;
-  width: 30vw;
-  height: 20vw;
-  background-color: red;
-  border: black solid 0.5vw;
+    top: 2vw;
+    left: -12vw;
+    text-align: center;
+    width: 17vw;
+    height: 23vw;
+    background-color: red;
+    border: black solid 0.5vw;
 }
 </style>

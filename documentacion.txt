@@ -11,7 +11,7 @@ Necesito que los NPC interactuen con los personajes , dandoles misiones , recomp
 
 
 https://javierarcheni.com/blog/importa-las-tablas-de-tu-base-de-datos-a-un-nuevo-proyecto-laravel/#
-
+https://blog.nubecolectiva.com/como-crear-un-crud-con-laravel-10-y-bootstrap-5-parte-1/
 https://www.youtube.com/watch?v=DtN98YOdnzQ
 
 

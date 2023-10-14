@@ -13,15 +13,13 @@ import CharacterImage from './icons/CharacterImage.vue';
 <style scoped>
 .character{
   position: absolute;
-  display: flex;
-  width: 50vw;
-  left: 30vw;
-  
-  gap: 15vw;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  flex-wrap: nowrap;
+    display: flex;
+    width: 50vw;
+    bottom: 16vw;
+    left: 10vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 
