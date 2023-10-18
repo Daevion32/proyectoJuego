@@ -25,7 +25,7 @@ import IconRol from './icons/IconRol.vue'
   top: 0;
   left: 0;
   width: 100vw;
-  height: 10vh;
+  height: 5vw;
   background-color: red;
   align-items: center;
   color: white;

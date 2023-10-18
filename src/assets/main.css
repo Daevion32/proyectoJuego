@@ -19,3 +19,16 @@ a:-webkit-any-link {
   text-decoration: none;
   color: white;
 }
+.characterComplement{
+  position: absolute;
+  left: 22vw;
+  top:3.3vw;
+  width: 30vw;
+  height: 2vw;
+ 
+}
+.characterComplement button{
+  width: 20%;
+  height: 100%;
+  background-color:black;
+}

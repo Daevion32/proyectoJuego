@@ -8,8 +8,8 @@
 <style scoped>
 .Inventory {
     position: absolute;
-    top: 21vh;
-    left: 53vw;
+    top: 11vw;
+    left: 23vw;
     font-weight: bold;
 }
 </style>

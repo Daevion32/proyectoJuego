@@ -13,6 +13,8 @@ import CharacterHome from '../components/CharacterHome.vue'
   <div class="characterComplement">
     <button><RouterLink to="/character"><p>Personaje</p></RouterLink></button>
     <button><RouterLink to="/inventory"><p>Inventario</p></RouterLink></button>
+    <button><RouterLink to="/skills"><p>Habilidades</p></RouterLink></button>
+    <button><RouterLink to="/history"><p>Historia</p></RouterLink></button>
   </div>
   <div class="characterView">
 
@@ -22,19 +24,6 @@ import CharacterHome from '../components/CharacterHome.vue'
 </template>
 
 <style scoped>
-  .characterComplement{
-    position: absolute;
-    left: 26vw;
-        top:3vw;
-    width: 10vw;
-    height: 3vw;
-    overflow : hidden;
-  }
-  .characterComplement button{
-    width: 50%;
-    height: 100%;
-    background-color:black;
-  }
   .characterView{
     position: absolute;
     bottom: 4vw;

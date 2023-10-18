@@ -22,19 +22,7 @@ import AsideBar from '../components/AsideBar.vue';
 
 
 <style scoped>
-  .characterComplement{
-    position: absolute;
-    left: 26vw;
-    top:3vw;
-    width: 10vw;
-    height: 3vw;
-    overflow : hidden;
-  }
-  .characterComplement button{
-    width: 50%;
-    height: 100%;
-    background-color:black;
-  }
+
   .inventoryView{
     position: absolute;
     bottom: 4vw;
