@@ -28,7 +28,7 @@ import CharacterHome from '../components/CharacterHome.vue'
     position: absolute;
     bottom: 4vw;
     left: 22vw;
-    height: 40vw;
+    height: 41.14vw;
     width: 78vw;
     display: flex;
     flex-direction: row;
