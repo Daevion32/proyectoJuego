@@ -1,12 +1,12 @@
-<script setup>
-import { RouterLink } from 'vue-router';
-import AsideBar from '../components/AsideBar.vue'
 
-import CharacterHome from '../components/CharacterHome.vue'
+<script setup>
+import InventoryCharacter from '../components/InventoryCharacter.vue';
+import AsideBar from '../components/AsideBar.vue';
+
 </script>
 
 <template>
-  <div>
+ <div>
     <AsideBar />
     
   </div>
@@ -14,18 +14,18 @@ import CharacterHome from '../components/CharacterHome.vue'
     <button><RouterLink to="/character"><p>Personaje</p></RouterLink></button>
     <button><RouterLink to="/inventory"><p>Inventario</p></RouterLink></button>
   </div>
-  <div class="characterView">
-
-    <CharacterHome />
-    
-  </div>
+    <div class="inventoryView">
+        <InventoryCharacter />
+    </div>
 </template>
+
+
 
 <style scoped>
   .characterComplement{
     position: absolute;
     left: 26vw;
-        top:3vw;
+    top:3vw;
     width: 10vw;
     height: 3vw;
     overflow : hidden;
@@ -35,7 +35,7 @@ import CharacterHome from '../components/CharacterHome.vue'
     height: 100%;
     background-color:black;
   }
-  .characterView{
+  .inventoryView{
     position: absolute;
     bottom: 4vw;
     left: 22vw;
