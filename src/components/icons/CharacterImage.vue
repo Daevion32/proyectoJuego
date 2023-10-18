@@ -16,8 +16,8 @@
     top: 2vw;
     left: -12vw;
     text-align: center;
-    width: 17vw;
-    height: 23vw;
+    width: 10vw;
+    height: 15vw;
     background-color: red;
     border: black solid 0.5vw;
 }

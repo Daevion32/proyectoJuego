@@ -22,9 +22,9 @@
     color: white;
     position: relative;
     top: 2vw;
-    left: -19vw;
-    width: 18vw;
-    height: 23vw;
+    right: 23.6vw;
+    width: 15vw;
+    height: 15vw;
     justify-content: space-around;
     border: black solid 0.5vw;
 }

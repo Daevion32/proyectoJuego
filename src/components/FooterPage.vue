@@ -20,6 +20,6 @@
   background-color: red;
   font-size: medium;
   font-weight: bolder;
-  height: 8vh;
+  height: 4vw;
 }
 </style>

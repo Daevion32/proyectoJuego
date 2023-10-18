@@ -13,6 +13,8 @@ import AsideBar from '../components/AsideBar.vue';
   <div class="characterComplement">
     <button><RouterLink to="/character"><p>Personaje</p></RouterLink></button>
     <button><RouterLink to="/inventory"><p>Inventario</p></RouterLink></button>
+    <button><RouterLink to="/skills"><p>Habilidades</p></RouterLink></button>
+    <button><RouterLink to="/history"><p>Historia</p></RouterLink></button>
   </div>
     <div class="inventoryView">
         <InventoryCharacter />
