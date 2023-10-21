@@ -21,14 +21,14 @@ import AccountBtn from './buttons/AccountBtn.vue'
 <style scoped>
 .aside {
   width: 22vw;
-  height: 82vh;
+  height: 41.14vw;
   background-color: rgba(81, 94, 66, 0.564);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap:1vh;
-  top:10vh;
+  top:5vw;
   
 }
 .buttonPlay {

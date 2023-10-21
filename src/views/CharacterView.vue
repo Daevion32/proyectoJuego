@@ -28,12 +28,13 @@ import CharacterHome from '../components/CharacterHome.vue'
     position: absolute;
     bottom: 4vw;
     left: 22vw;
-    height: 41.14vw;
+    height: 39.5vw;
     width: 78vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
     background: #cd9c66;
+    overflow: hidden;
   }
 </style>

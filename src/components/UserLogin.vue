@@ -13,9 +13,13 @@
 
       <input type="»password»" id="»password»" />
     </div>
-
-    <button type="»submit»"><RouterLink to="/home">Login</RouterLink></button>
   </form>
+  <div class="btnLogin">
+    <button class="newAccount" type="submit"><RouterLink to="/newAccount">New Account</RouterLink></button>
+    <button class="newAccount"  type="»submit»"><RouterLink to="/home">Login</RouterLink></button>
+    
+  </div>
+ 
 </template>
 
 <style scoped>
@@ -38,5 +42,21 @@ form {
   position: relative;
   gap: 1vw;
   display: flex;
+}
+
+.btnLogin{
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+  position: relative;
+  top:25.2vw;
+  left:48vw;
+  gap:0.2vw;
+  
+}
+.newAccount{
+  background-color: black;
+  width: 4vw;
+  height: 2vw;
 }
 </style>

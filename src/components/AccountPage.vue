@@ -1,15 +1,13 @@
-<script setup></script>
+<script setup>
+ import NewAccount from './NewAccount.vue';
+</script>
 
 <template>
   <div>
-    <h1 class="account">Información relativa a la cuenta</h1>
+    <NewAccount />
   </div>
 </template>
 
 <style scoped>
-.account {
-  position: relative;
-  text-align: center;
-  bottom: 45vh;
-}
+
 </style>
