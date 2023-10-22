@@ -1,5 +1,5 @@
 <script setup>
-
+import AccountPage from '../components/AccountPage.vue';
 import AsideBar from '../components/AsideBar.vue'
 </script>
 
@@ -8,7 +8,9 @@ import AsideBar from '../components/AsideBar.vue'
     <AsideBar />
    
   </div>
-
+  <div>
+    <AccountPage />
+  </div>
 </template>
 
 <style scoped></style>
