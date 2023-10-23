@@ -19,7 +19,7 @@
         </div>
         <div class="">
             <label for="email"></label>
-            <input class="" type="email" id="email" placeholder="E-mail">
+            <input class="" type="email" id="email" placeholder="E-mail" required>
         </div>
         <div class="">
             <div>
