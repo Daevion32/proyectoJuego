@@ -2,12 +2,12 @@ https://app.creately.com/d/wAScaIxiRLZ/edit   //diagrama de la database
 https://mystery.knightlab.com/ // juego sobre bases de database
 
 
-Necesito un CRUD para la creacion , edicion , lectura y borrado de cuenta ( esto ultimo con una confirmación)
-Necesito un CRUD para la creacion , lectura y borrado del personaje , ( la edicion correria a cargo del admin bajo peticion del usuario)
+Necesito un CRUD para la creación , edición , lectura y borrado de cuenta ( esto ultimo con una confirmación)
+Necesito un CRUD para la creación , lectura y borrado del personaje , ( la edición correría a cargo del admin bajo petición del usuario)
 Necesito poder Leer el mapeado ( tanto el admin como el personaje)
-Necesito un CRUD para la creacion , edicion , lectura y borrado de misiones ( edicion y borrado solo para el admin)
-Necesito un CRUD para la creacion , edicion , lectura y borrado de NPC ( edicion , creacion y borrado solo para el admin )
-Necesito que los NPC interactuen con los personajes , dandoles misiones , recompensas o historia del pueblo / ciudad 
+Necesito un CRUD para la creación , edición , lectura y borrado de misiones ( edición y borrado solo para el admin)
+Necesito un CRUD para la creación , edición , lectura y borrado de NPC ( edición , creación y borrado solo para el admin )
+Necesito que los NPC interactúen con los personajes , dando misiones , recompensas o historia del pueblo / ciudad 
 
 
 https://javierarcheni.com/blog/importa-las-tablas-de-tu-base-de-datos-a-un-nuevo-proyecto-laravel/#
