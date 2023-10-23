@@ -1,10 +1,10 @@
 <script setup>
- import NewAccount from './NewAccount.vue';
+import AccountInfo from '../components/AccountInfo.vue'
 </script>
 
 <template>
   <div>
-    <NewAccount />
+    <AccountInfo />
   </div>
 </template>
 
