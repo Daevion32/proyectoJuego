@@ -1,8 +1,10 @@
 <script setup></script>
 
 <template>
-  
+  <div >
+    
     <ol class="attributes">
+      <h1>Nombre : {character.characterName}</h1>
       <li>Fuerza : {character.strength}</li>
       <li>Destreza : {character.dexterity}</li>
       <li>Constitución : {character.constitution}</li>
@@ -11,9 +13,12 @@
       <li>Carisma : {character.charisma}</li>
     </ol>
 
+  </div>
+
 </template>
 
 <style scoped>
+
 .attributes {
   display: flex;
     flex-direction: column;
@@ -28,8 +33,14 @@
     justify-content: space-around;
     border: black solid 0.5vw;
 }
-li {
+
+.attributes h1{
+  font-size: x-large;
+}
+.attributes li {
   margin-top: 1vh;
   margin-left: 1vw;
 }
+
+
 </style>
