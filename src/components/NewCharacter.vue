@@ -4,27 +4,15 @@
   <div>
     <form class="container">
       <div class="">
-        <label for="name">Nombre: </label>
+        <label for="name">Nombre Personaje: </label>
         <input class="form-control ms-4" type="text" id="name" placeholder="Nombre" />
       </div>
-      <div class="">
-        <label for="username">Usuario: </label>
-        <input class="" type="text" id="username" placeholder="Usuario" />
-      </div>
-      <div class="">
-        <label for="password">Contraseña: </label>
-        <input class="" type="password" id="password" placeholder="Contraseña" />
-      </div>
-      <div class="">
-        <label for="email"></label>
-        <input class="" type="email" id="email" placeholder="E-mail" required />
-      </div>
-      <div class="">
+
         <div>
-          <RouterLink to="/account"><button>Crear</button></RouterLink>
-          <RouterLink to="/"><button class="ps-4">Cancelar</button></RouterLink>
+          <RouterLink to="/character"><button>Crear</button></RouterLink>
+          <RouterLink to="/account"><button class="ps-4">Cancelar</button></RouterLink>
         </div>
-      </div>
+      
     </form>
   </div>
 </template>

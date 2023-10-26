@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import CharacterView from '../views/CharacterView.vue'
+import NewCharacterView from '../views/NewCharacterView.vue'
 import WorldMapView from '../views/WorldMapView.vue'
 import LoginUserView from '../views/LoginUserView.vue'
 import HomeAsideView from '../views/HomeAsideView.vue'
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/character',
       name: 'character',
       component: CharacterView
+    },
+    {
+      path: '/newCharacter',
+      name: 'newCharacter',
+      component: NewCharacterView
     },
     {
       path: '/inventory',
