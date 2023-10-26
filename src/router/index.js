@@ -60,7 +60,7 @@ const router = createRouter({
     },
     {
       path: '/NewAccount',
-      name:'newAccount',
+      name: 'newAccount',
       component: NewAccountView
     }
   ]

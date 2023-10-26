@@ -8,6 +8,4 @@ import AccountInfo from '../components/AccountInfo.vue'
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

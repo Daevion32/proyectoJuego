@@ -1,6 +1,6 @@
 <script setup>
 import AttributeChar from './AttributeChar.vue'
-import CharacterImage from './icons/CharacterImage.vue';
+import CharacterImage from './icons/CharacterImage.vue'
 </script>
 
 <template>
@@ -11,16 +11,14 @@ import CharacterImage from './icons/CharacterImage.vue';
 </template>
 
 <style scoped>
-.character{
+.character {
   position: absolute;
-    display: flex;
-    width: 50vw;
-    bottom: 22vw;
-    left: 8vw;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+  display: flex;
+  width: 50vw;
+  bottom: 22vw;
+  left: 8vw;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
-
-
 </style>

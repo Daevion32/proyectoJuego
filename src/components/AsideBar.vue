@@ -8,13 +8,11 @@ import AccountBtn from './buttons/AccountBtn.vue'
 
 <template>
   <div class="aside buttonPlay">
-
-      <RouterLink to="/character"><CharacterBtn /></RouterLink>
-      <RouterLink to="/WorldMap"><WorldMapBtn /></RouterLink>
-      <RouterLink to="/academy"><AcademyBtn /></RouterLink>
-      <RouterLink to="/social"><SocialBtn /></RouterLink>
-      <RouterLink to="/account"><AccountBtn /></RouterLink>
-
+    <RouterLink to="/character"><CharacterBtn /></RouterLink>
+    <RouterLink to="/WorldMap"><WorldMapBtn /></RouterLink>
+    <RouterLink to="/academy"><AcademyBtn /></RouterLink>
+    <RouterLink to="/social"><SocialBtn /></RouterLink>
+    <RouterLink to="/account"><AccountBtn /></RouterLink>
   </div>
 </template>
 
@@ -27,14 +25,10 @@ import AccountBtn from './buttons/AccountBtn.vue'
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap:1vh;
-  top:5vw;
-  
+  gap: 1vh;
+  top: 5vw;
 }
 .buttonPlay {
   position: relative;
 }
 </style>
-
-
-

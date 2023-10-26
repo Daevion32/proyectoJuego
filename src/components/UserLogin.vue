@@ -15,11 +15,11 @@
     </div>
   </form>
   <div class="btnLogin">
-    <button class="newAccount" type="submit"><RouterLink to="/newAccount">New Account</RouterLink></button>
-    <button class="newAccount"  type="»submit»"><RouterLink to="/home">Login</RouterLink></button>
-    
+    <button class="newAccount" type="submit">
+      <RouterLink to="/newAccount">New Account</RouterLink>
+    </button>
+    <button class="newAccount" type="»submit»"><RouterLink to="/home">Login</RouterLink></button>
   </div>
- 
 </template>
 
 <style scoped>
@@ -44,17 +44,16 @@ form {
   display: flex;
 }
 
-.btnLogin{
+.btnLogin {
   display: flex;
   align-items: flex-start;
   align-content: center;
   position: relative;
-  top:25.2vw;
-  left:48vw;
-  gap:0.2vw;
-  
+  top: 25.2vw;
+  left: 48vw;
+  gap: 0.2vw;
 }
-.newAccount{
+.newAccount {
   background-color: black;
   width: 4vw;
   height: 2vw;

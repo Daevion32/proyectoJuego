@@ -1,24 +1,22 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-    <img  class="retrato" src="../../assets/be5b0e9256e15105ffa89da11df4ba27.jpg" alt=" Imagen del Personaje" >
-
+  <img
+    class="retrato"
+    src="../../assets/be5b0e9256e15105ffa89da11df4ba27.jpg"
+    alt=" Imagen del Personaje"
+  />
 </template>
 
-
-
-<style  scoped>
-
+<style scoped>
 .retrato {
   position: relative;
-    top: 2vw;
-    left: -12vw;
-    text-align: center;
-    width: 10vw;
-    height: 15vw;
-    background-color: red;
-    border: black solid 0.5vw;
+  top: 2vw;
+  left: -12vw;
+  text-align: center;
+  width: 10vw;
+  height: 15vw;
+  background-color: red;
+  border: black solid 0.5vw;
 }
 </style>
