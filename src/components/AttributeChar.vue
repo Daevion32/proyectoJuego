@@ -1,16 +1,48 @@
-<script setup></script>
+<script setup>
+import { ref, onMounted } from 'vue';
+import { getCharacter } from '../services/apiRequest'; // Asegúrate de importar la función que obtiene la información del personaje
+
+const character = ref({
+  characterName: '',
+  strength: 0,
+  dexterity: 0,
+  constitution: 0,
+  intelligence: 0,
+  wisdom: 0,
+  charisma: 0,
+  // Agrega más atributos aquí
+});
+
+// Utiliza una función para obtener la información completa del personaje
+const loadCharacterInfo = async () => {
+  try {
+    const characterInfo = await getCharacter(); // Utiliza tu función API para obtener la información
+    character.value = characterInfo;
+  } catch (error) {
+    console.error('Error al cargar la información del personaje:', error);
+  }
+};
+
+// Llama a la función para cargar la información del personaje cuando se monta el componente
+onMounted(() => {
+  loadCharacterInfo();
+});
+</script>
+
 
 <template>
   <div>
     <ol class="attributes">
-      <h1>Nombre : {character.characterName}</h1>
-      <li>Fuerza : {character.strength}</li>
-      <li>Destreza : {character.dexterity}</li>
-      <li>Constitución : {character.constitution}</li>
-      <li>Inteligencia : {character.intelligence}</li>
-      <li>Sabiduría : {character.wisdom}</li>
-      <li>Carisma : {character.charisma}</li>
-    </ol>
+      <h1>Nombre : {{ character.characterName }}</h1>
+      <li>Fuerza : {{ character.strength }}</li>
+      <li>Destreza : {{ character.dexterity }}</li>
+      <li>Constitución : {{ character.constitution }}</li>
+      <li>Inteligencia : {{ character.intelligence }}</li>
+      <li>Sabiduría : {{ character.wisdom }}</li>
+      <li>Carisma : {{ character.charisma }}</li>
+  <!-- Agrega más atributos aquí -->
+</ol>
+
   </div>
 </template>
 

@@ -1,16 +1,44 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
+import router from '../router';
+import { createCharacter } from '../services/apiRequest';
+
+const characterName = ref('');
+
+const crearPersonaje = async () => {
+  try {
+    const newCharacterData = {
+      name: characterName.value,
+      // Otros datos del personaje (si los hay)
+    };
+
+    const response = await createCharacter(newCharacterData);
+
+    if (response.status === 201) {
+      const newCharacter = response.data;
+      router.push(`/character/${newCharacter.id}`); // Suponiendo que estás utilizando Vue Router
+}
+  } catch (error) {
+    // Manejar errores, por ejemplo, mostrar un mensaje de error
+    console.error('Error al crear el personaje:', error);
+  }
+
+  characterName.value = '';
+};
+
+</script>
 
 <template>
   <div>
-    <form class="container">
+    <form class="container" @submit="crearPersonaje">
       <div class="">
         <label for="name">Nombre Personaje: </label>
-        <input class="form-control ms-4" type="text" id="name" placeholder="Nombre" />
+        <input v-model="characterName" class="form-control ms-4" type="text" id="name" placeholder="Nombre" />
       </div>
 
         <div>
-          <RouterLink to="/character"><button>Crear</button></RouterLink>
-          <RouterLink to="/account"><button class="ps-4">Cancelar</button></RouterLink>
+          <RouterLink to="/character"><button type="submit">Crear</button></RouterLink>
+          <RouterLink to="/account"><button  class="ps-4" type="button" @click="cancelar">Cancelar</button></RouterLink>
         </div>
       
     </form>
