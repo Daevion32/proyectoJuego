@@ -1,6 +1,6 @@
 <script setup>
-import { ref, onMounted } from 'vue';
-import { getCharacter } from '../services/apiRequest'; // Asegúrate de importar la función que obtiene la información del personaje
+import { ref, onMounted } from 'vue'
+import { getCharacter } from '../services/apiRequest' // Asegúrate de importar la función que obtiene la información del personaje
 
 const character = ref({
   characterName: '',
@@ -9,26 +9,25 @@ const character = ref({
   constitution: 0,
   intelligence: 0,
   wisdom: 0,
-  charisma: 0,
+  charisma: 0
   // Agrega más atributos aquí
-});
+})
 
 // Utiliza una función para obtener la información completa del personaje
 const loadCharacterInfo = async () => {
   try {
-    const characterInfo = await getCharacter(); // Utiliza tu función API para obtener la información
-    character.value = characterInfo;
+    const characterInfo = await getCharacter() // Utiliza tu función API para obtener la información
+    character.value = characterInfo
   } catch (error) {
-    console.error('Error al cargar la información del personaje:', error);
+    console.error('Error al cargar la información del personaje:', error)
   }
-};
+}
 
 // Llama a la función para cargar la información del personaje cuando se monta el componente
 onMounted(() => {
-  loadCharacterInfo();
-});
+  loadCharacterInfo()
+})
 </script>
-
 
 <template>
   <div>
@@ -40,9 +39,8 @@ onMounted(() => {
       <li>Inteligencia : {{ character.intelligence }}</li>
       <li>Sabiduría : {{ character.wisdom }}</li>
       <li>Carisma : {{ character.charisma }}</li>
-  <!-- Agrega más atributos aquí -->
-</ol>
-
+      <!-- Agrega más atributos aquí -->
+    </ol>
   </div>
 </template>
 

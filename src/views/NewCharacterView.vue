@@ -1,23 +1,16 @@
 <script setup>
-import NewCharacter from '../components/NewCharacter.vue';
-
-
+import NewCharacter from '../components/NewCharacter.vue'
 </script>
 
-
 <template>
-    <div class="ViewCharacter">
-        <NewCharacter />
-    </div>
+  <div class="ViewCharacter">
+    <NewCharacter />
+  </div>
 </template>
 
-
-
-<style  scoped>
- .ViewCharacter{
-
+<style scoped>
+.ViewCharacter {
   background: black;
   height: 50vw;
 }
-
 </style>
