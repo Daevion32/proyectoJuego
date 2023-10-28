@@ -9,7 +9,7 @@ const crearPersonaje = async () => {
   try {
     const newCharacterData = {
       name: characterName.value
-      // Otros datos del personaje (si los hay)
+      
     }
 
     const response = await createCharacter(newCharacterData)
