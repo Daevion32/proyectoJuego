@@ -27,9 +27,11 @@ https://www.youtube.com/watch?v=KzoLAVAp0n8
 
 
 
-
-
-
+v 0.2 -> User funcional
+v 0.3 -> Character funcional
+v 0.4 -> User - Character relacionados
+v 0.5 -> Mapa funcional , character se mueve por el mapa
+v 0.6 -> Npc y Character interacciona con los NPC
 
 
 
