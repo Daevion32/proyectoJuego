@@ -52,7 +52,6 @@ onMounted(() => {
   background-color: black;
   color: white;
   position: relative;
-  top: 2vw;
   right: 23.6vw;
   width: 15vw;
   height: 15vw;

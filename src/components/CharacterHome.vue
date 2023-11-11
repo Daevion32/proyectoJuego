@@ -15,7 +15,7 @@ import CharacterImage from './icons/CharacterImage.vue'
   position: absolute;
   display: flex;
   width: 50vw;
-  bottom: 22vw;
+  bottom: 20vw;
   left: 8vw;
   flex-direction: row;
   flex-wrap: nowrap;

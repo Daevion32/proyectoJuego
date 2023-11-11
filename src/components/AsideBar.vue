@@ -1,7 +1,7 @@
 <script setup>
 import CharacterBtn from './buttons/CharacterBtn.vue'
-import WorldMapBtn from './buttons/WorldMapBtn.vue'
-import AcademyBtn from './Buttons/AcademyBtn.vue'
+import WorldMapBtn from './buttons/WorldMapbtn.vue'
+import AcademyBtn from './buttons/AcademyBtn.vue'
 import SocialBtn from './buttons/SocialBtn.vue'
 import AccountBtn from './buttons/AccountBtn.vue'
 </script>
