@@ -19,7 +19,7 @@ import AccountBtn from './buttons/AccountBtn.vue'
 <style scoped>
 .aside {
   width: 22vw;
-  height: 40.6vw;
+  height: 41.14vw;
   background-color: rgba(81, 94, 66, 0.564);
   display: flex;
   flex-direction: column;
