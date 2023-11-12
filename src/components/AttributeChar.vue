@@ -55,8 +55,8 @@ const character = ref({
   background-color: black;
   color: white;
   position: relative;
-
-  right: 24.4vw;
+  top: 2vw;
+  right: 23.6vw;
   width: 15vw;
   height: 15vw;
   justify-content: space-around;

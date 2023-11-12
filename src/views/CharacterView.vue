@@ -42,7 +42,7 @@ import CharacterHome from '../components/CharacterHome.vue'
   position: absolute;
   bottom: 4vw;
   left: 22vw;
-  height: 39.5vw;
+  height: 40vw;
   width: 78vw;
   display: flex;
   flex-direction: row;
@@ -50,5 +50,13 @@ import CharacterHome from '../components/CharacterHome.vue'
   align-items: flex-end;
   background: #cd9c66;
   overflow: hidden;
+}
+.characterComplement{
+  position: relative;
+    bottom: 36.2vw;
+    left: 22vw;
+    width: 78vw;
+    height: 2vw;
+    z-index: 1;
 }
 </style>
