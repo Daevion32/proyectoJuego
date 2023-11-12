@@ -1,6 +1,6 @@
 <script setup>
-import { ref, onMounted } from 'vue'
-import { getCharacter } from '../services/apiRequest' // Asegúrate de importar la función que obtiene la información del personaje
+import { ref,  } from 'vue'
+import {  } from '../services/apiRequest' // Asegúrate de importar la función que obtiene la información del personaje
 
 const character = ref({
   characterName: '',
