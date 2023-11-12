@@ -11,8 +11,8 @@
 <style scoped>
 .retrato {
   position: relative;
-  top: 2vw;
-  left: -12vw;
+ 
+  left: -22vw;
   text-align: center;
   width: 10vw;
   height: 15vw;

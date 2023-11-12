@@ -1,5 +1,6 @@
 <script setup>
-import AttributeChar from './AttributeChar.vue'
+import AbilitiesChar from './AbilitiesChar.vue';
+import AttributeChar from './AttributeChar.vue';
 import CharacterImage from './icons/CharacterImage.vue'
 </script>
 
@@ -7,16 +8,18 @@ import CharacterImage from './icons/CharacterImage.vue'
   <div class="character">
     <CharacterImage />
     <AttributeChar />
+    <AbilitiesChar />
   </div>
+
 </template>
 
 <style scoped>
 .character {
-  position: absolute;
+  position: relative;
   display: flex;
   width: 50vw;
-  bottom: 22vw;
-  left: 8vw;
+  bottom: 21vw;
+  left: 20vw;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;

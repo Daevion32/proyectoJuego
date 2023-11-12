@@ -25,10 +25,19 @@ import CharacterHome from '../components/CharacterHome.vue'
   </div>
   <div class="characterView">
     <CharacterHome />
+    
   </div>
 </template>
 
 <style scoped>
+.characterComplement{
+  position: relative;
+    bottom: 35.6vw;
+    left: 22vw;
+    width: 78vw;
+    height: 2vw;
+    z-index: 1;
+}
 .characterView {
   position: absolute;
   bottom: 4vw;

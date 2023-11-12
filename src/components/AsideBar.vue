@@ -1,7 +1,7 @@
 <script setup>
 import CharacterBtn from './buttons/CharacterBtn.vue'
 import WorldMapBtn from './buttons/WorldMapBtn.vue'
-import AcademyBtn from './Buttons/AcademyBtn.vue'
+import AcademyBtn from './buttons/AcademyBtn.vue'
 import SocialBtn from './buttons/SocialBtn.vue'
 import AccountBtn from './buttons/AccountBtn.vue'
 </script>
@@ -19,7 +19,7 @@ import AccountBtn from './buttons/AccountBtn.vue'
 <style scoped>
 .aside {
   width: 22vw;
-  height: 41.14vw;
+  height: 40.6vw;
   background-color: rgba(81, 94, 66, 0.564);
   display: flex;
   flex-direction: column;
