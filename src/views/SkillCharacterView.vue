@@ -1,10 +1,7 @@
 <script setup>
-import { RouterLink } from 'vue-router'
 import AsideBar from '../components/AsideBar.vue'
-import BackpackContent from '../components/BackpackContent.vue'
-import CharacterHome from '../components/CharacterHome.vue'
+import SkillsCharacter from '../components/SkillsCharacter.Vue'
 </script>
-
 <template>
   <div>
     <AsideBar />
@@ -23,45 +20,22 @@ import CharacterHome from '../components/CharacterHome.vue'
       <RouterLink to="/history"><p>Historia</p></RouterLink>
     </button>
   </div>
-  <div class="characterView">
-    <CharacterHome />
-  </div>
-
-  <div class="backpack">
-    <BackpackContent />
+  <div class="skillView">
+    <SkillsCharacter />
   </div>
 </template>
 
 <style scoped>
-.characterView {
+.skillView {
   position: absolute;
   bottom: 4vw;
   left: 22vw;
-  height: 40vw;
+  height: 41.14vw;
   width: 78vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
   background: #cd9c66;
-  overflow: hidden;
-}
-.characterComplement {
-  position: relative;
-  bottom: 36.2vw;
-  left: 22vw;
-  width: 78vw;
-  height: 2vw;
-  z-index: 1;
-}
-.backpack {
-  position: absolute;
-  display: flex;
-  left: 40vw;
-  bottom: 6vw;
-  height: 17vw;
-  width: 30vw;
-  background: black;
-  color: goldenrod;
 }
 </style>

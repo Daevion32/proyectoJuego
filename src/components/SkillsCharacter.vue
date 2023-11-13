@@ -1,12 +1,12 @@
 <script setup></script>
 <template>
   <div>
-    <h1 class="inventory">Inventario del Personaje en Construcción</h1>
+    <h1 class="skills">Habilidades del Personaje en Construcción</h1>
   </div>
 </template>
 
 <style scoped>
-.inventory {
+.skills {
   position: absolute;
   top: 11vw;
   left: 23vw;

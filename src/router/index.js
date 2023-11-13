@@ -10,6 +10,8 @@ import SocialView from '../views/SocialView.vue'
 import AccountView from '../views/AccountView.vue'
 import InventoryCharacterView from '../views/InventoryCharacterView.vue'
 import NewAccountView from '../views/NewAccountView.vue'
+import SkillCharacterView from '../views/SkillCharacterView.vue'
+import HistoryCharacterView from '../views/HistoryCharacterView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -43,6 +45,16 @@ const router = createRouter({
       path: '/inventory',
       name: 'inventory',
       component: InventoryCharacterView
+    },
+    {
+      path: '/skills',
+      name: 'skills',
+      component: SkillCharacterView
+    },
+    {
+      path: '/history',
+      name: 'history',
+      component: HistoryCharacterView
     },
     {
       path: '/WorldMap',

@@ -1,6 +1,6 @@
 <script setup>
-import { ref,  } from 'vue'
-import {  } from '../services/apiRequest' // Asegúrate de importar la función que obtiene la información del personaje
+import { ref } from 'vue'
+import {} from '../services/apiRequest' // Asegúrate de importar la función que obtiene la información del personaje
 
 const character = ref({
   characterName: '',
@@ -9,8 +9,8 @@ const character = ref({
   constitution: 4,
   intelligence: 4,
   wisdom: 4,
-  charisma: 4,
-  
+  charisma: 4
+
   // Agrega más atributos aquí
 })
 
@@ -28,7 +28,6 @@ const character = ref({
 // onMounted(() => {
 //   loadCharacterInfo()
 // })
- 
 </script>
 
 <template>
@@ -41,7 +40,7 @@ const character = ref({
       <li>Inteligencia : {{ character.intelligence }}</li>
       <li>Sabiduría : {{ character.wisdom }}</li>
       <li>Carisma : {{ character.charisma }}</li>
-     
+
       <!-- Agrega más atributos aquí -->
     </ol>
   </div>

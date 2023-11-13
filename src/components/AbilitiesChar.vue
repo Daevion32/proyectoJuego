@@ -1,5 +1,5 @@
 <script setup>
-import {ref} from 'vue'
+import { ref } from 'vue'
 
 const abilities = ref({
   attack: 20,
@@ -8,30 +8,43 @@ const abilities = ref({
   mana: 4,
   talent: 4,
   lenguages: 4
-
-  
 })
-
 </script>
 
 <template>
-    <div>
-        <ol class="abilities">
-            <li>Ataque :{{ abilities.attack }} <p>El ataque viene de tu fuerza por un numero</p></li>
-            <li>Defensa : {{ abilities.defense }} <p>La defensa viene de tu destreza por un numero</p></li>
-            <li>Salud : {{ abilities.life }} <p>La vida viene de tu constitución por un numero</p></li>
-            <li>Mana : {{ abilities.mana }} <p>El mana viene dado de tu inteligencia por un numero</p></li>
-            <li>Talentos : {{ abilities.talent }} <p>Este apartado se tiene que pensar mejor</p></li>
-            <li>Idiomas : {{ abilities.lenguages }} <p>Este apartado se tiene que pensar mejor</p></li>
-            <!-- Agrega más atributos aquí -->
-        </ol>
-    </div>
+  <div>
+    <ol class="abilities">
+      <li>
+        Ataque :{{ abilities.attack }}
+        <p>El ataque viene de tu fuerza por un numero</p>
+      </li>
+      <li>
+        Defensa : {{ abilities.defense }}
+        <p>La defensa viene de tu destreza por un numero</p>
+      </li>
+      <li>
+        Salud : {{ abilities.life }}
+        <p>La vida viene de tu constitución por un numero</p>
+      </li>
+      <li>
+        Mana : {{ abilities.mana }}
+        <p>El mana viene dado de tu inteligencia por un numero</p>
+      </li>
+      <li>
+        Talentos : {{ abilities.talent }}
+        <p>Este apartado se tiene que pensar mejor</p>
+      </li>
+      <li>
+        Idiomas : {{ abilities.lenguages }}
+        <p>Este apartado se tiene que pensar mejor</p>
+      </li>
+      <!-- Agrega más atributos aquí -->
+    </ol>
+  </div>
 </template>
 
-
-
-<style  scoped>
- .abilities{
+<style scoped>
+.abilities {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -45,9 +58,9 @@ const abilities = ref({
   border: black solid 0.5vw;
 }
 .abilities p {
-    display: inline;
-    
-    position: relative;
-    left: 8vw;
+  display: inline;
+
+  position: relative;
+  left: 8vw;
 }
 </style>

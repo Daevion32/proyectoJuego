@@ -18,7 +18,7 @@
     <button class="newAccount" type="submit">
       <RouterLink to="/newAccount">New Account</RouterLink>
     </button>
-    <button class="newAccount" type="»submit»"><RouterLink to="/home">Login</RouterLink></button>
+    <button class="newAccount" type="»submit»"><RouterLink to="/account">Login</RouterLink></button>
   </div>
 </template>
 
