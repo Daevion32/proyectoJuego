@@ -12,4 +12,6 @@ import AsideBar from '../components/AsideBar.vue'
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+  
+</style>

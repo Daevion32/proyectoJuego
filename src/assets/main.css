@@ -12,8 +12,8 @@
 .btn:hover {
   font-weight: 900;
   font-size: x-large;
-  color: yellow;
-  border: goldenrod solid 0.8vw;
+  color: goldenrod;
+  border: goldenrod solid 0.4vw;
 }
 a:-webkit-any-link {
   text-decoration: none;
@@ -36,6 +36,6 @@ a:-webkit-any-link {
 }
 
 .characterComplement p:hover{
-  font-weight: 900;
-  color:gold;
+  font-size:0.7vw;
+  color:goldenrod;
 }

@@ -42,9 +42,7 @@ const crearPersonaje = async () => {
 
       <div>
         <RouterLink to="/character"><button type="submit">Crear</button></RouterLink>
-        <RouterLink to="/account"
-          ><button class="ps-4" type="button" @click="cancelar">Cancelar</button></RouterLink
-        >
+        <RouterLink to="/account"><button class="ps-4" type="button" @click="cancelar">Cancelar</button></RouterLink>
       </div>
     </form>
   </div>

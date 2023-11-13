@@ -16,5 +16,6 @@ import Homepage from '../components/HomePage.vue'
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
 }
 </style>

@@ -8,10 +8,10 @@ import IconRol from './icons/IconRol.vue'
     <div class="icons">
       <RouterLink to="/"><IconRol /></RouterLink>
     </div>
-    <h1>Titulo Juego</h1>
+    <RouterLink to="/"><h1>Era de los Encantamientos: Travesía en las Tierras Olvidadas</h1></RouterLink>
 
     <div>
-      <RouterLink to="/userLogin"><h1>Login</h1></RouterLink>
+      <RouterLink to="/userLogin"><p>Login</p></RouterLink>
     </div>
   </div>
 </template>
@@ -35,6 +35,12 @@ import IconRol from './icons/IconRol.vue'
   align-items: center;
 }
 h1 {
+  font-size:x-large;
+  font-weight: bold;
   color: white;
+  
+}
+h1:hover{
+  color:goldenrod;
 }
 </style>
