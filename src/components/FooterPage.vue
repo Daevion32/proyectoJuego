@@ -22,4 +22,8 @@
   font-weight: bolder;
   height: 4vw;
 }
+.footer a:hover {
+  font-size: x-large;
+  color:goldenrod;
+}
 </style>

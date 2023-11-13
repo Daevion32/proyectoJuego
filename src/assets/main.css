@@ -27,8 +27,15 @@ a:-webkit-any-link {
   height: 2vw;
   z-index: 1;
 }
+
 .characterComplement button {
   width: 25%;
   height: 100%;
   background-color: black;
+
+}
+
+.characterComplement p:hover{
+  font-weight: 900;
+  color:gold;
 }

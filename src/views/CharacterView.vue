@@ -46,14 +46,7 @@ import CharacterHome from '../components/CharacterHome.vue'
   background: #cd9c66;
   overflow: hidden;
 }
-.characterComplement {
-  position: relative;
-  bottom: 36.2vw;
-  left: 22vw;
-  width: 78vw;
-  height: 2vw;
-  z-index: 1;
-}
+
 .backpack {
   position: absolute;
   display: flex;

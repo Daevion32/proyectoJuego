@@ -39,4 +39,7 @@ import AsideBar from '../components/AsideBar.vue'
   align-items: flex-end;
   background: #cd9c66;
 }
+.characterComplement:hover{
+  color:goldenrod
+}
 </style>
