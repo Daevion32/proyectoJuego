@@ -1,13 +1,11 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-import IconRol from './icons/IconRol.vue'
+
 </script>
 
 <template>
   <div class="nav">
-    <div class="icons">
-      <RouterLink to="/"><IconRol /></RouterLink>
-    </div>
+
     <RouterLink to="/"><h1>Era de los Encantamientos: Travesía en las Tierras Olvidadas</h1></RouterLink>
 
     <div>
@@ -30,10 +28,7 @@ import IconRol from './icons/IconRol.vue'
   align-items: center;
   color: white;
 }
-.icons {
-  display: flex;
-  align-items: center;
-}
+
 h1 {
   font-size:x-large;
   font-weight: bold;
