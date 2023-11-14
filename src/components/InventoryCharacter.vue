@@ -8,13 +8,13 @@
           <th>Nombre</th>
           <th>Descripción</th>
           <th>Cantidad</th>
-      
+          <th>Equipado</th>
         </tr>
         <tr>
           <td>${name}</td>
           <td>${description}</td>
           <td>${quantity}</td>
-         
+          <td>${equipped}</td>
         </tr>
       </table>
     </div>
