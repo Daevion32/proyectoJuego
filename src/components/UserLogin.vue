@@ -40,9 +40,10 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 0.2vw;
 }
 .user {
-  left: 0.65vw;
+  left: 0.67vw;
   position: relative;
   display: flex;
   gap: 1vw;
