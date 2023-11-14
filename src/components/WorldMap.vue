@@ -2,12 +2,12 @@
 
 <template>
   <div>
-    <h1 class="worldmap">Mapa en exploración</h1>
+    <h1 class="worldMap">Mapa en exploración</h1>
   </div>
 </template>
 
 <style scoped>
-.worldmap {
+.worldMap {
   position: relative;
   text-align: center;
   bottom: 45vh;

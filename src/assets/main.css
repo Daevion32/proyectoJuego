@@ -32,10 +32,9 @@ a:-webkit-any-link {
   width: 25%;
   height: 100%;
   background-color: black;
-
 }
 
-.characterComplement p:hover{
-  font-size:0.7vw;
-  color:goldenrod;
+.characterComplement p:hover {
+  font-size: 0.7vw;
+  color: goldenrod;
 }

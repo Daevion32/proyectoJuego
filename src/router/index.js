@@ -3,8 +3,6 @@ import HomeView from '../views/HomeView.vue'
 import CharacterView from '../views/CharacterView.vue'
 import NewCharacterView from '../views/NewCharacterView.vue'
 import WorldMapView from '../views/WorldMapView.vue'
-import LoginUserView from '../views/LoginUserView.vue'
-import HomeAsideView from '../views/HomeAsideView.vue'
 import AcademyView from '../views/AcademyView.vue'
 import SocialView from '../views/SocialView.vue'
 import AccountView from '../views/AccountView.vue'
@@ -20,16 +18,6 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
-    },
-    {
-      path: '/home',
-      name: 'init',
-      component: HomeAsideView
-    },
-    {
-      path: '/userLogin',
-      name: 'userLogin',
-      component: LoginUserView
     },
     {
       path: '/character',

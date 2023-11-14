@@ -1,15 +1,16 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-
+import UserLogin from '../components/UserLogin.vue'
 </script>
 
 <template>
   <div class="nav">
+    <RouterLink to="/"
+      ><h1>Era de los Encantamientos: Travesía en las Tierras Olvidadas</h1></RouterLink
+    >
 
-    <RouterLink to="/"><h1>Era de los Encantamientos: Travesía en las Tierras Olvidadas</h1></RouterLink>
-
-    <div>
-      <RouterLink to="/userLogin"><p>Login</p></RouterLink>
+    <div class="UserLogin">
+      <UserLogin />
     </div>
   </div>
 </template>
@@ -30,12 +31,13 @@ import { RouterLink } from 'vue-router'
 }
 
 h1 {
-  font-size:x-large;
+  position: relative;
+  left: 15vw;
+  font-size: x-large;
   font-weight: bold;
   color: white;
-  
 }
-h1:hover{
-  color:goldenrod;
+h1:hover {
+  color: goldenrod;
 }
 </style>

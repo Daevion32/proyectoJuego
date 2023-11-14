@@ -1,6 +1,5 @@
 <script setup>
-import IconRol from '../components/icons/IconRol.vue';
-
+import IconRol from '../components/icons/IconRol.vue'
 </script>
 
 <template>
@@ -8,7 +7,14 @@ import IconRol from '../components/icons/IconRol.vue';
     <div class="icons">
       <IconRol />
     </div>
-    <p>Embárcate en la era dorada de los encantamientos y la magia, donde las tierras olvidadas aguardan con sus secretos. Vive emocionantes travesías mientras desentrañas los misterios de diversas escuelas de magia y te enfrentas a entidades míticas como dragones. Este es un mundo donde caballeros intrépidos y astutos hechiceros se encuentran inmersos en una eterna lucha entre la luz y la oscuridad, mientras antiguos encantamientos esperan ser descubiertos y dominados.</p>
+    <p>
+      Embárcate en la era dorada de los encantamientos y la magia, donde las tierras olvidadas
+      aguardan con sus secretos. Vive emocionantes travesías mientras desentrañas los misterios de
+      diversas escuelas de magia y te enfrentas a entidades míticas como dragones. Este es un mundo
+      donde caballeros intrépidos y astutos hechiceros se encuentran inmersos en una eterna lucha
+      entre la luz y la oscuridad, mientras antiguos encantamientos esperan ser descubiertos y
+      dominados.
+    </p>
   </div>
 </template>
 
@@ -19,13 +25,12 @@ import IconRol from '../components/icons/IconRol.vue';
   justify-content: center;
   position: relative;
   width: 35%;
-  font-size: larger;
+  font-size: x-large;
   font-weight: bolder;
-
 }
 .homePage .icons {
-  position:relative;
-  bottom:14vw;
+  position: relative;
+  bottom: 14vw;
 }
 .homePage p {
   position: absolute;

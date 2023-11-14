@@ -24,6 +24,6 @@
 }
 .footer a:hover {
   font-size: x-large;
-  color:goldenrod;
+  color: goldenrod;
 }
 </style>

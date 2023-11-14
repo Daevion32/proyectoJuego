@@ -15,6 +15,4 @@ import FooterPage from './components/FooterPage.vue'
   <RouterView />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

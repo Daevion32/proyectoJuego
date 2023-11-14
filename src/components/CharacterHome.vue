@@ -1,7 +1,6 @@
 <script setup>
 import AbilitiesChar from './AbilitiesChar.vue'
 import AttributeChar from './AttributeChar.vue'
-
 import CharacterImage from './icons/CharacterImage.vue'
 </script>
 
