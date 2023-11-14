@@ -2,7 +2,7 @@
 <template>
   <div>
     <h1 class="skills">Habilidades Primarias</h1>
-    <div class="profesion">
+    <div class="profession">
       <table class="principal">
         <tr>
           <th>Nombre</th>

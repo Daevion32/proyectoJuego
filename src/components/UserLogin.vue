@@ -5,7 +5,7 @@
 
   <div >
     <div class="nameAccount" >
-      <p>Daevion</p>
+      <p>Lolindil</p>
      <p><RouterLink to="/">Desconectarse</RouterLink></p>
     </div> 
 
@@ -24,7 +24,7 @@
     </form>
     <div class="Login">
       <p class="newAccount" type="submit">
-        <RouterLink to="/newAccount">Nueva Cuenta</RouterLink>
+        <RouterLink to="/newAccount">¿No tienes Cuenta? Regístrate</RouterLink>
       </p>
       <p class="newAccount" type="»submit»"><RouterLink to="/account">Conectarse</RouterLink></p>
     </div>
@@ -65,7 +65,7 @@ form {
   align-content: center;
   justify-content: center;
   position: relative;
-  left: 3vw;
+  left: 0;
   top: 0.4vw;
   gap: 1.2vw;
   font-size: large;
