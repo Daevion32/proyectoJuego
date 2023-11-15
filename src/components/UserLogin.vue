@@ -1,25 +1,22 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
-
-  <div >
-    <div class="nameAccount" >
+  <div>
+    <div class="nameAccount">
       <p>Lolindil</p>
-     <p><RouterLink to="/">Desconectarse</RouterLink></p>
-    </div> 
-
+      <p><RouterLink to="/">Desconectarse</RouterLink></p>
+    </div>
   </div>
   <div>
     <form>
       <div class="user">
-        <label for="»user»">Usuario:</label>
-        <input type="»text»" id="»user»" />
+        <label for="user">Usuario:</label>
+        <input type="text" id="user" />
       </div>
 
       <div class="password">
-        <label for="»password»">Contraseña:</label>
-        <input type="»password»" id="»password»" />
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password"/>
       </div>
     </form>
     <div class="Login">
@@ -29,7 +26,6 @@
       <p class="newAccount" type="»submit»"><RouterLink to="/account">Conectarse</RouterLink></p>
     </div>
   </div>
-
 </template>
 
 <style scoped>
@@ -77,9 +73,9 @@ form {
   align-content: center;
   justify-content: center;
   position: relative;
-  left:8vw;
+  left: 8vw;
   gap: 4vw;
-  font-size:x-large;
+  font-size: x-large;
   font-weight: bold;
 }
 </style>

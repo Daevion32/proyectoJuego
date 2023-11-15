@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 import UserLogin from '../components/UserLogin.vue'
-import IconMini from './icons/IconMini.vue';
+import IconMini from './icons/IconMini.vue'
 </script>
 
 <template>
@@ -35,7 +35,7 @@ import IconMini from './icons/IconMini.vue';
 h1 {
   position: absolute;
   left: 30vw;
-  top:1.5vw;
+  top: 1.5vw;
   text-align: center;
   font-size: xx-large;
   font-weight: bold;
@@ -47,6 +47,5 @@ h1:hover {
 .userLogin {
   position: absolute;
   right: 4vw;
-  
 }
 </style>

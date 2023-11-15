@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router';
+
+</script>
 
 <template>
   <div>
@@ -10,9 +13,7 @@
     </ol>
   </div>
   <div>
-    <RouterLink to="/newCharacter"
-      ><button class="newCharacter">Crear Personaje</button></RouterLink
-    >
+    <RouterLink to="/newCharacter"><button class="newCharacter">Crear Personaje</button></RouterLink>
     <RouterLink to="/character"><button class="character">Personaje</button></RouterLink>
   </div>
 </template>
@@ -25,7 +26,7 @@
   background-color: black;
   color: white;
   position: absolute;
-  top: 8vw;
+  bottom: 20vw;
   right: 50.6vw;
   width: 15vw;
   height: 15vw;
@@ -39,31 +40,34 @@ li {
 .character {
   background-color: black;
   position: absolute;
-  left: 44vw;
-  top: 24.2vw;
-  height: 3vw;
-  width: 3.4vw;
+  right: 50.6vw;
+  top: 22vw;
+  height: 4vw;
+  width: 4vw;
   color: white;
   text-align: center;
 }
 .character:hover {
-  height: 4vw;
-  width: 4vw;
+  height: 5vw;
+  width: 5vw;
   color: goldenrod;
   font-size: medium;
+  text-align: center;
 }
 .newCharacter {
   background-color: black;
   position: absolute;
-  left: 35vw;
-  top: 24.2vw;
-  height: 3vw;
+  right:61.6vw;
+  top: 22vw;
+  height: 4vw;
   width: 4vw;
   color: white;
 }
 .newCharacter:hover {
-  height: 4vw;
-  width: 4vw;
+
+ 
+  height: 5vw;
+  width: 5vw;
   color: goldenrod;
   font-size: medium;
 }

@@ -1,6 +1,7 @@
-<script setup></script>
+<script setup>
+</script>
 <template>
- <div>
+  <div>
     <h1 class="inventory">Inventario</h1>
     <div>
       <table class="principal">

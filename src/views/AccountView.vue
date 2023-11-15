@@ -7,9 +7,23 @@ import AsideBar from '../components/AsideBar.vue'
   <div>
     <AsideBar />
   </div>
-  <div>
+  <div class="accountView">
     <AccountPage />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+  .accountView {
+  position: absolute;
+  bottom: 4vw;
+  left: 22vw;
+  height: 41.14vw;
+  width: 78vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  background: #cd9c66;
+  overflow: hidden;
+}
+</style>
