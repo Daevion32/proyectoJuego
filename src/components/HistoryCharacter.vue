@@ -1,15 +1,15 @@
 <script setup></script>
 <template>
-  <div>
-    <h1 class="history">Historia del Personaje en Construcción</h1>
+  <div class="history">
+    <textarea name="history" id="history" cols="100" rows="25"></textarea>
   </div>
 </template>
 
 <style scoped>
 .history {
   position: absolute;
-  top: 11vw;
-  left: 23vw;
+  top: 4vw;
+  left: 2vw;
   font-weight: bold;
 }
 </style>

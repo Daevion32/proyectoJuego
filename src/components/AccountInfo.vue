@@ -4,18 +4,19 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <div>
+
     <ol class="accountInfo">
       <li>Nombre : {user.name}</li>
       <li>Usuario : {user.username}</li>
       <li>Email : {user.email}</li>
       <li>Personaje : {user.characterName}</li>
+
     </ol>
-  </div>
-  <div>
-    <RouterLink to="/newCharacter"><button class="newCharacter">Crear Personaje</button></RouterLink>
-    <RouterLink to="/character"><button class="character">Personaje</button></RouterLink>
-  </div>
+    <div>
+        <RouterLink to="/newCharacter"><button class="newCharacter">Crear Personaje</button></RouterLink>
+        <RouterLink to="/character"><button class="character">Personaje</button></RouterLink>
+    </div>
+
 </template>
 
 <style scoped>
@@ -23,52 +24,54 @@ import { RouterLink } from 'vue-router';
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  background-color: black;
-  color: white;
+  border: 1vw solid black;
+  color: black;
   position: absolute;
-  bottom: 20vw;
-  right: 50.6vw;
-  width: 15vw;
-  height: 15vw;
-  justify-content: space-around;
-  border: black solid 0.5vw;
+  bottom: 16vw;
+  right: 34.6vw;
+  width: 20vw;
+  height: 20vw;
+  justify-content:space-evenly;
 }
 li {
-  margin-top: 1vh;
+  margin-bottom: 1vw;
   margin-left: 1vw;
 }
 .character {
   background-color: black;
   position: absolute;
-  right: 50.6vw;
-  top: 22vw;
-  height: 4vw;
-  width: 4vw;
+  left:35vw;
+  top: 28vw;
+  height: 5vw;
+  width: 5vw;
+
   color: white;
   text-align: center;
 }
 .character:hover {
-  height: 5vw;
-  width: 5vw;
+  height: 6vw;
+  width: 6vw;
   color: goldenrod;
   font-size: medium;
   text-align: center;
+  border:0.5vw solid goldenrod;
+
 }
 .newCharacter {
-  background-color: black;
+  background-color: lightgrey;
   position: absolute;
-  right:61.6vw;
-  top: 22vw;
-  height: 4vw;
-  width: 4vw;
-  color: white;
-}
-.newCharacter:hover {
-
- 
+  left:25vw;
+  top:28vw;
   height: 5vw;
   width: 5vw;
+  color: black;
+}
+.newCharacter:hover {
+  height: 6vw;
+  width: 6vw;
   color: goldenrod;
   font-size: medium;
+  border:0.5vw solid black;
+
 }
 </style>
