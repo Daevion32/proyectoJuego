@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router';
 <template>
 
     <ol class="accountInfo">
-      <li>Nombre : {user.name}</li>
+     
       <li>Usuario : {user.username}</li>
       <li>Email : {user.email}</li>
       <li>Personaje : {user.characterName}</li>
@@ -25,6 +25,7 @@ import { RouterLink } from 'vue-router';
   flex-direction: column;
   align-items: stretch;
   border: 1vw solid black;
+  background-color:rgba(255, 255, 255 ,0.6);
   color: black;
   position: absolute;
   bottom: 16vw;

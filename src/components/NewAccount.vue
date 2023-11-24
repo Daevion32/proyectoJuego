@@ -5,10 +5,6 @@ import { RouterLink } from 'vue-router';
 <template>
   <div>
     <form class="container">
-      <div class="name">
-        <label for="name">Nombre: </label>
-        <input class="form-control ms-4" type="text" id="name" placeholder="Nombre" />
-      </div>
       <div class="username">
         <label for="username">Usuario: </label>
         <input class="" type="text" id="username" placeholder="Usuario" />

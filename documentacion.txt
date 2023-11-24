@@ -27,17 +27,19 @@ https://www.youtube.com/watch?v=sQwDLrleegA
 
 
 v 0.2   -> Usuario funcional y logueado ( se pueden crear)
-v 0.2.x -> Solucion de errores 
+v 0.2.x -> Solución de errores 
 v 0.3   -> Personaje funcional ( se pueden crear)
-v 0.3.x -> Solucion de errores 
-v 0.4   -> Relacion entre el usuario y el personaje (desde un usuario logueado se puede crear un personaje)
+v 0.3.x -> Solución de errores 
+v 0.4   -> Relación entre el usuario y el personaje (desde un usuario logueado se puede crear un personaje)
 v 0.4.5 -> Se pueden borrar Usuarios y Personajes , falta decidir como avisar de cada uno de los borrados
-v 0.4.x -> Solucion de errores 
+v 0.4.x -> Solución de errores 
 v 0.5   -> Implementación del mapa y posibilidad de que los personajes se desplacen por él
-v 0.5.x -> Solucion de errores 
+v 0.5.x -> Solución de errores 
 v 0.6   -> Implementación de NPC sencillos para ir añadiendoles logica a futuro 
-v 0.6.x -> Solucion de errores 
-
+v 0.6.x -> Solución de errores 
+v.0.7   -> Implementación de objetos , enemigos y combate 
+v.0.7.x -> Solución de errores
+v.0.8   -> Implementación 
 
 
 
