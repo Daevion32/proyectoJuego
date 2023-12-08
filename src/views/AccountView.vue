@@ -13,7 +13,7 @@ import AsideBar from '../components/AsideBar.vue'
 </template>
 
 <style scoped>
-  .accountView {
+.accountView {
   position: absolute;
   bottom: 4vw;
   left: 22vw;

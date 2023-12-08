@@ -1,4 +1,5 @@
-cd ..<script setup>
+cd ..
+<script setup>
 import { ref } from 'vue'
 
 const abilities = ref({

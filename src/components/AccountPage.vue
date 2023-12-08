@@ -9,15 +9,15 @@ import AccountInfo from '../components/AccountInfo.vue'
 </template>
 
 <style scoped>
-  .account {
-    position: relative;
-    display: flex;
-    height: 41.14vw;
-    width: 78vw;
-    bottom: 0;
-    left: 0;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-  }
+.account {
+  position: relative;
+  display: flex;
+  height: 41.14vw;
+  width: 78vw;
+  bottom: 0;
+  left: 0;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
 </style>

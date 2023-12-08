@@ -16,7 +16,7 @@
 
       <div class="password">
         <label for="password">Contraseña:</label>
-        <input type="password" id="password"/>
+        <input type="password" id="password" />
       </div>
     </form>
     <div class="Login">

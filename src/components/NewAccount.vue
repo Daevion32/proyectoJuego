@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
@@ -46,24 +46,27 @@ import { RouterLink } from 'vue-router';
   justify-content: center;
 }
 
-.name,.username,.password,.confirm,.email{
+.name,
+.username,
+.password,
+.confirm,
+.email {
   position: relative;
   left: 2vw;
 }
-input{
-  display:flex;
-  flex-direction:row;
+input {
+  display: flex;
+  flex-direction: row;
   position: relative;
-  left:10vw;
-  bottom:1vw;
+  left: 10vw;
+  bottom: 1vw;
 }
-button{
+button {
   position: relative;
-  left:12vw;
-  bottom:1vw;
-
+  left: 12vw;
+  bottom: 1vw;
 }
-.ps-4{
+.ps-4 {
   position: relative;
   left: 13vw;
   bottom: 1vw;
