@@ -8,7 +8,7 @@
       alt="
 Era de los Encantamientos: Travesía en las Tierras Olvidadas"
     />
-    <img class="logo2" src="../../assets/_1a602ed0-9c29-43ab-bd77-e7aaea115f95.jpeg" alt="" />
+    
   </div>
 </template>
 

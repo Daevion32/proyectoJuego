@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <img class="logo" src="../../assets/_1a602ed0-9c29-43ab-bd77-e7aaea115f95.jpeg" alt="" />
+    <img class="logo" src="../../assets/_2f7a9bc3-22de-41dd-877a-6888a5a76891.jpeg" alt="" />
   </div>
 </template>
 
